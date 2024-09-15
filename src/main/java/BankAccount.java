@@ -3,7 +3,7 @@ public class BankAccount {
 	 private int minBalance = -5000;
 	 private String owner;
 	 public String getOwner() {
-		 
+		return "owner";	 
 	 }
 	 public void setOwner (String name) {
 		 owner = name;
