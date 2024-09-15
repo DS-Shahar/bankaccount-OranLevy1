@@ -15,6 +15,8 @@ public class Main {
 	System.out.println(Lisa.toString());
 	System.out.println(Bob.toString());
 	boolean success = Lisa.transfer(Bob, 500);
+	System.out.println(Lisa.toString());
+	System.out.println(Bob.toString());
         System.out.println("transfer success = " + success);
         success = Lisa.transfer(Bob, 1600);
         System.out.println("transfer success = " + success);
